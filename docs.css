@@ -1,0 +1,159 @@
+.docs-section {
+    width: 100%;
+    /* display: flex;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: 72% 28%;
+}
+
+.about {
+    background-color: #fff;
+    /* flex-basis: 72%; */
+    padding: 4rem 6% 0 10%;
+}
+
+.about h1{
+    font-size: 60px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #282c34;
+    margin-bottom: 2rem;
+}
+
+.about span {
+    font-size: 21px;
+    color: #6d6d6d;
+}
+
+.about ul li {
+    padding: 5px 0;
+}
+
+.about ul li a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid gray;
+    font-size: 15px;
+    background-color: rgba(0, 255, 255, 0.112);
+}
+
+.about ul li a:hover {
+    background-color: rgba(0, 255, 255, 0.304);
+}
+
+.about h2 {
+    font-size: 35px;
+}
+
+.about h3 {
+    font-size: 25px;
+}
+
+.about p {
+    font-size: 16px;
+    margin: 2rem 0 2.5rem 0;
+}
+
+.toc{
+    /* flex-basis: 28%; */
+    background-color: #f7f7f7;
+    height: 90.5vh;
+    width: 28%;
+    position: fixed;
+    right: 0;
+    /* opacity: 1 !important; */
+    overflow-y: scroll;
+}
+
+.toc ul {
+    padding: 20% 0;
+}
+
+.toc ul li {
+    color: #6d6d6d;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 3;
+    text-transform: uppercase;
+    text-align: start;
+    letter-spacing: 0.08em;
+    padding: 6px 3rem;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.toc ul li:hover {
+    color: black;
+}
+
+.toc ul li a:visited,
+.toc ul ul li a:focus {
+    color: #1a1a1a;
+    font-size: 14px;
+    border-left: 5px solid cyan;
+}
+
+.toc ul ul {
+    padding: 1rem 0;
+    margin-left: -10px;
+    display: none;
+}
+.toc ul ul li {
+    color: #1a1a1a94;
+    list-style: none;
+    padding: 0;
+    font-size: 13px;
+    line-height: 2.5;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.toc ul ul li a{
+    text-decoration: none;
+    color: #1a1a1a94;
+    padding: 8px 0;
+    padding-left: 20px;
+    transition: border 0.2s ease;
+}
+
+.toc ul ul li a:hover {
+    color: #1a1a1a;
+    font-weight: bold;
+}
+
+.toc ul ul li a:visited,
+.toc ul ul li a:focus,
+.toc ul ul li a:active {
+    color: #1a1a1a;
+    font-size: 14px;
+    border-left: 5px solid cyan;
+}
+
+.arrow-icons {
+    font-size: 16px;
+    margin-bottom: -2px;
+}
+.arrows .arrow-icons:nth-child(2){
+    display: none;
+}
+
+.active .arrow-icons:nth-child(2){
+    display: inline-block;
+}
+
+.active .arrow-icons:nth-child(1){
+    display: none;
+}
+
+
+
+.toc::-webkit-scrollbar {
+    width: 4px;
+}
+
+.toc::-webkit-scrollbar-thumb {
+    background-color: black;
+    display: none;
+}
+
+.toc::-webkit-scrollbar-corner {
+    display: none;
+}
