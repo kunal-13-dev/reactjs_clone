@@ -10,3 +10,9 @@
 6. git push origin master ( add projects to github repository )
 7. git clone reponame ( make a clone )
 8. git pull origin master ( get all file from github repository )
+
+
+extra commands
+1. ls -lart ( show all the files in the folder with hidden files also )
+2. touch [filename] ( create a new file the folder)
+3. git checkout [filename] ( basicallly undo the changes in the file )
