@@ -15,4 +15,9 @@
 extra commands
 1. ls -lart ( show all the files in the folder with hidden files also )
 2. touch [filename] ( create a new file the folder)
-3. git checkout [filename] ( basicallly undo the changes in the file )
+3. git checkout [filename] ( basicallly undo the changes in the modified file )
+4. git checkout -f ( undo all the modified files )
+5. git log ( show all the commits you did )
+6. git log -p -1 ( show only last commit file and also show the changes you made )
+7. git diff ( basically, it compares working directory with staging area if it is not same then  show the changes you made in the file otherwise, no change shown )
+8. git diff --staged ( compare staging area with last commit )
