@@ -34,3 +34,4 @@ branch commands
 1. git branch (show all the branches)
 2. git branch master2 ( make a new branch with name master2 and basically its a copy of a master branch )
 3. git checkout master2 ( switch from master branch to master2 )
+4. git merge master2 ( merge master2 in master branch)
