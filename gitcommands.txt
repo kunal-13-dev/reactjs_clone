@@ -28,6 +28,9 @@ else modified in working tree
 9. git rm --f [filename]( permanently remove file from folder )
 10. git rm --cached [filename] ( delete file only from staging area )
 11. git status -s (show status in short)
+12. git remote set-url origin 'new url' ( change your url to new one)
+13. git remote ( show all the remote)
+14. git remote -v ( show all the remote with url)
 
 
 branch commands
@@ -35,3 +38,4 @@ branch commands
 2. git branch master2 ( make a new branch with name master2 and basically its a copy of a master branch )
 3. git checkout master2 ( switch from master branch to master2 )
 4. git merge master2 ( merge master2 in master branch)
+5. git checkout -b [branchname] ( create a new branch and automatically switch to that branch)
