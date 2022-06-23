@@ -2,6 +2,9 @@
 
 const toc = document.querySelector('.toc');
 
+let free = 5;
+console.log(free)
+
 toc.addEventListener('click', e => {
     if(e.target.classList.contains('list-item')){
         const ul = e.target.closest('.list')
