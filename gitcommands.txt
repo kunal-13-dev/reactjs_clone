@@ -10,9 +10,13 @@
 6. git push origin master ( add projects to github repository )
 7. git clone reponame ( make a clone )
 8. git pull origin master ( get all file from github repository )
+9. touch .gitignore (create a .gitignore file)
 
 
 extra commands
+
+if green M display that means modified in staging area
+else modified in working tree
 1. ls -lart ( show all the files in the folder with hidden files also )
 2. touch [filename] ( create a new file the folder)
 3. git checkout [filename] ( basicallly undo the changes in the modified file )
@@ -21,5 +25,6 @@ extra commands
 6. git log -p -1 ( show only last commit file and also show the changes you made )
 7. git diff ( basically, it compares working directory with staging area if it is not same then  show the changes you made in the file otherwise, no change shown )
 8. git diff --staged ( compare staging area with last commit )
-9. git rm --f [filename]( remove file from folder )
+9. git rm --f [filename]( permanently remove file from folder )
 10. git rm --cached [filename] ( delete file only from staging area )
+11. git status -s (show status in short)
