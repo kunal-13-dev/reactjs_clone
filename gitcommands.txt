@@ -31,6 +31,7 @@ else modified in working tree
 12. git remote set-url origin 'new url' ( change your url to new one)
 13. git remote ( show all the remote)
 14. git remote -v ( show all the remote with url)
+15. git push ( push your all new commits in your repository )
 
 
 branch commands

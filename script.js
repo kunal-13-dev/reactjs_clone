@@ -2,8 +2,8 @@
 
 const toc = document.querySelector('.toc');
 
-// let free = 5;
-// console.log(free)
+let free = 5;
+console.log(free)
 
 toc.addEventListener('click', e => {
     if(e.target.classList.contains('list-item')){
