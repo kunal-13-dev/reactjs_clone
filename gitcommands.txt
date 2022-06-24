@@ -7,7 +7,7 @@
 3. git status
 4. git commit -m "msg"
 5. git remote add origin reponame  ( link your github repository with project )
-6. git push origin master ( add projects to github repository )
+6. git push -u origin master ( add projects to github repository )
 7. git clone reponame ( make a clone )
 8. git pull origin master ( get all file from github repository )
 9. touch .gitignore (create a .gitignore file)
